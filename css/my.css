@@ -1,11 +1,15 @@
 @media screen and (max-width: 769px) 
 {
     .container{
-        width: 768px;
+        width: 100%;
     }
 
+    /* .container{
+        width: 768px;
+    } */
+
     body{
-        display: inline-block;
+        /* display: inline-block; */
     }
     
 }
@@ -15,8 +19,12 @@
 @media screen and (max-width: 481px) 
 {
     .container{
-        width: 480px;
+        width: 100%;
     }
+
+    /* .container{
+        width: 480px;
+    } */
 
     .row{
         flex-direction: column;
@@ -24,7 +32,7 @@
     }
 
     body{
-        display: inline-block;
+        /* display: inline-block; */
     }
 
     .row .col{
